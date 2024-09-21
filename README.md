@@ -13,3 +13,5 @@ This loss function means that q_t always influenced much by reward(can go to loc
 
 
 In DDPG, to calculate temporal correlated exploration, using Ornstein-Uhlenbeck noise
+
+This code is modified baseline
