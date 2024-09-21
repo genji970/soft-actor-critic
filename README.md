@@ -10,3 +10,6 @@ you have to do some exploration by adding new code. In this sac, it is alpha*log
 
 q_t - alpha * log(policy) -> -(q_t - alpha * log(policy)) to do gradient descent
 This loss function means that q_t always influenced much by reward(can go to local min), but by decreasing value of policy(prob of correspond action), entropy increases
+
+
+In DDPG, to calculate temporal correlated exploration, using Ornstein-Uhlenbeck noise
